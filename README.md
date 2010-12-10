@@ -10,4 +10,5 @@ Examples are organized by chapters so you can follow along.
 
 ## Chapter 2
 
-* [selectors.rb](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_2/selectors.rb) MacRuby selectors examples.
+* [selectors.rb](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_2/selectors.rb) MacRuby selector examples.
+* [closures.rb](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_2/closures.rb) Closure/block/iterator examples.
