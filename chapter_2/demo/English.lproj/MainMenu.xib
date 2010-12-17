@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="371"/>
+			<integer value="421"/>
 			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -2585,7 +2585,7 @@
 									</object>
 								</object>
 								<string key="NSFrame">{{2.12389e-314, 0}, {6.95322e-310, 6.95325e-310}}</string>
-								<string key="NSBounds">{{-2.12389e-314, 0}, {0, 0}}</string>
+								<string key="NSBounds">{{-4.24778e-314, 0}, {0, 0}}</string>
 								<string key="NSOffsets">{0, 0}</string>
 								<object class="NSTextFieldCell" key="NSTitleCell">
 									<int key="NSCellFlags">67239424</int>
@@ -3228,7 +3228,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">441</int>
+			<int key="maxID">442</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

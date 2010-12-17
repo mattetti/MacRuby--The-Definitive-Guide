@@ -43,7 +43,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2B9E8C8B12B609AA00C61C79 /* mouse_coordinates_loop.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B9E8C8A12B609AA00C61C79 /* mouse_coordinates_loop.rb */; };
 		2BB57D7412BB7ED3005BFA77 /* alice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BB57D7312BB7ED3005BFA77 /* alice.jpg */; };
 		2BB6938B12B5853C004831B9 /* controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BB6938A12B5853C004831B9 /* controller.rb */; };
 		2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA9DA510CDF852007972A1 /* MainMenu.xib */; };
@@ -75,7 +74,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2B9E8C8A12B609AA00C61C79 /* mouse_coordinates_loop.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mouse_coordinates_loop.rb; sourceTree = "<group>"; };
 		2BB57D7312BB7ED3005BFA77 /* alice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alice.jpg; sourceTree = "<group>"; };
 		2BB6938A12B5853C004831B9 /* controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = controller.rb; sourceTree = "<group>"; };
 		2BFA9DA610CDF852007972A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				2BB6938A12B5853C004831B9 /* controller.rb */,
-				2B9E8C8A12B609AA00C61C79 /* mouse_coordinates_loop.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -243,7 +240,6 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				2BB6938B12B5853C004831B9 /* controller.rb in Resources */,
-				2B9E8C8B12B609AA00C61C79 /* mouse_coordinates_loop.rb in Resources */,
 				2BB57D7412BB7ED3005BFA77 /* alice.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
