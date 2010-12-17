@@ -1,5 +1,7 @@
 # MacRuby: The Definitive Guide - Code Examples
 
+![MacRuby book cover](http://covers.oreilly.com/images/0636920000723/rc_s.gif)
+
 This repository contains code examples used in my [MacRuby book](http://oreilly.com/catalog/0636920000723).
 
 Examples are organized by chapters so you can follow along.
