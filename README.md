@@ -10,8 +10,8 @@ Examples are organized by chapters so you can follow along.
 
 ## Chapter 2
 
-* [Demo App example](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_2/demo_app.zip) Source code for the demo app.
-![Screenshot of the demo app in Chapter 2](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_2/demo-app.png "MacRuby Demo App - Chapter 2")
+* [Demo App example](http://github.com/mattetti/MacRuby--The-Definitive-Guide/raw/master/chapter_2/demo_app.zip) Source code for the demo app.
+![Screenshot of the demo app in Chapter 2](http://github.com/mattetti/MacRuby--The-Definitive-Guide/raw/master/chapter_2/demo-app.png "MacRuby Demo App - Chapter 2")
 
 ## Chapter 3
 
