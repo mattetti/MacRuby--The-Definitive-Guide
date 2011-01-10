@@ -25,7 +25,7 @@ window = NSWindow.alloc.initWithContentRect([200, 300, 300, 100],
     backing:NSBackingStoreBuffered, 
     defer:false)
 window.title      = 'MacRuby: The Definitive Guide'
-window.level      = 3
+window.level      =  NSModalPanelWindowLevel
 window.delegate   = app.delegate
 
 button = NSButton.alloc.initWithFrame([80, 10, 120, 80])
