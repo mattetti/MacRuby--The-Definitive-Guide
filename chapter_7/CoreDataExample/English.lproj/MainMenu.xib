@@ -1378,7 +1378,6 @@
 													<bool key="NSIsResizeable">YES</bool>
 													<reference key="NSTableView" ref="312413930"/>
 													<object class="NSSortDescriptor" key="NSSortDescriptorPrototype">
-														<string key="NSKey">name</string>
 														<bool key="NSAscending">YES</bool>
 														<string key="NSSelector">compareIgnoreCase:</string>
 													</object>
@@ -1462,10 +1461,10 @@
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents"/>
-								<object class="NSFont" key="NSSupport" id="28">
+								<object class="NSFont" key="NSSupport" id="41208788">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">12</double>
-									<int key="NSfFlags">4883</int>
+									<int key="NSfFlags">16</int>
 								</object>
 								<reference key="NSControlView" ref="437954092"/>
 								<int key="NSButtonFlags">-2030288641</int>
@@ -1490,7 +1489,7 @@
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents"/>
-								<reference key="NSSupport" ref="28"/>
+								<reference key="NSSupport" ref="41208788"/>
 								<reference key="NSControlView" ref="949098451"/>
 								<int key="NSButtonFlags">-2033434369</int>
 								<int key="NSButtonFlags2">164</int>
@@ -1514,7 +1513,7 @@
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents"/>
-								<reference key="NSSupport" ref="28"/>
+								<reference key="NSSupport" ref="41208788"/>
 								<reference key="NSControlView" ref="358531938"/>
 								<int key="NSButtonFlags">-2033434369</int>
 								<int key="NSButtonFlags2">164</int>
@@ -1535,7 +1534,7 @@
 								<int key="NSCellFlags">-2080244224</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents"/>
-								<reference key="NSSupport" ref="28"/>
+								<reference key="NSSupport" ref="41208788"/>
 								<reference key="NSControlView" ref="111250525"/>
 								<int key="NSButtonFlags">-2033434369</int>
 								<int key="NSButtonFlags2">164</int>
@@ -1760,7 +1759,7 @@
 														<object class="NSComboTableView" key="NSTableView" id="624518892">
 															<reference key="NSNextResponder"/>
 															<int key="NSvFlags">274</int>
-															<string key="NSFrameSize">{13, 21}</string>
+															<string key="NSFrameSize">{13, 63}</string>
 															<reference key="NSSuperview"/>
 															<reference key="NSWindow"/>
 															<bool key="NSEnabled">YES</bool>
@@ -1775,11 +1774,7 @@
 																		<int key="NSCellFlags">75628032</int>
 																		<int key="NSCellFlags2">0</int>
 																		<string key="NSContents"/>
-																		<object class="NSFont" key="NSSupport" id="41208788">
-																			<string key="NSName">LucidaGrande</string>
-																			<double key="NSSize">12</double>
-																			<int key="NSfFlags">16</int>
-																		</object>
+																		<reference key="NSSupport" ref="41208788"/>
 																		<object class="NSColor" key="NSBackgroundColor">
 																			<int key="NSColorSpace">3</int>
 																			<bytes key="NSWhite">MC4zMzMzMzI5ODU2AA</bytes>
@@ -1962,7 +1957,7 @@
 								<object class="NSComboTableView" key="NSTableView" id="981181529">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">274</int>
-									<string key="NSFrameSize">{13, 21}</string>
+									<string key="NSFrameSize">{13, 105}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<bool key="NSEnabled">YES</bool>
@@ -2081,8 +2076,8 @@
 							<object class="NSSearchFieldCell" key="NSCell" id="545508952">
 								<int key="NSCellFlags">343014976</int>
 								<int key="NSCellFlags2">268436544</int>
-								<string key="NSContents"/>
 								<reference key="NSSupport" ref="473336353"/>
+								<string key="NSPlaceholderString"/>
 								<reference key="NSControlView" ref="549411699"/>
 								<bool key="NSDrawsBackground">YES</bool>
 								<int key="NSTextBezelStyle">1</int>
@@ -3135,11 +3130,31 @@
 						<string key="label">predicate: filterPredicate</string>
 						<reference key="source" ref="549411699"/>
 						<reference key="destination" ref="1021454931"/>
-						<object class="NSNibBindingConnector" key="connector">
+						<object class="NSNibBindingConnector" key="connector" id="304956428">
 							<reference key="NSSource" ref="549411699"/>
 							<reference key="NSDestination" ref="1021454931"/>
 							<string key="NSLabel">predicate: filterPredicate</string>
 							<string key="NSBinding">predicate</string>
+							<string key="NSKeyPath">filterPredicate</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSPredicateFormat</string>
+								<string key="NS.object.0">title contains $value</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1020</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">predicate2: filterPredicate</string>
+						<reference key="source" ref="549411699"/>
+						<reference key="destination" ref="1021454931"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="549411699"/>
+							<reference key="NSDestination" ref="1021454931"/>
+							<string key="NSLabel">predicate2: filterPredicate</string>
+							<string key="NSBinding">predicate2</string>
 							<string key="NSKeyPath">filterPredicate</string>
 							<object class="NSDictionary" key="NSOptions">
 								<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3150,14 +3165,15 @@
 								</object>
 								<object class="NSMutableArray" key="dict.values">
 									<bool key="EncodedWithXMLCoder">YES</bool>
-									<string>Movie Title</string>
-									<string>title contains $value</string>
+									<string>Actor's name</string>
+									<string>name contains $value</string>
 								</object>
 							</object>
+							<reference key="NSPreviousConnector" ref="304956428"/>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">1005</int>
+					<int key="connectionID">1027</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4944,9 +4960,9 @@
 					<string>{{475, 832}, {234, 43}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{89, 245}, {676, 473}}</string>
+					<string>{{285, 128}, {676, 473}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{89, 245}, {676, 473}}</string>
+					<string>{{285, 128}, {676, 473}}</string>
 					<integer value="1"/>
 					<string>{{11, 666}, {480, 270}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -5203,7 +5219,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1011</int>
+			<int key="maxID">1027</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -6044,6 +6060,10 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<integer value="1060" key="NS.object.0"/>
+		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
 			<integer value="3000" key="NS.object.0"/>
