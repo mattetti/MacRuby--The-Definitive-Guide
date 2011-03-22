@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B36E5EA133856150062DBCD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36E5E9133856150062DBCD /* Cocoa.framework */; };
+		2B36E5EC133856150062DBCD /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B36E5EB133856150062DBCD /* MacRuby.framework */; };
+		2B36E5F2133856150062DBCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B36E5F0133856150062DBCD /* InfoPlist.strings */; };
+		2B36E5F5133856150062DBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B36E5F4133856150062DBCD /* main.m */; };
+		2B36E5F9133856150062DBCD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B36E5F7133856150062DBCD /* MainMenu.xib */; };
+		2B36E5FC133856150062DBCD /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B36E5FB133856150062DBCD /* rb_main.rb */; };
+		2B36E5FE133856150062DBCD /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B36E5FD133856150062DBCD /* AppDelegate.rb */; };
+		2B36E6051338566E0062DBCD /* event_view.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B36E6041338566E0062DBCD /* event_view.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B36E5E5133856150062DBCD /* events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = events.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B36E5E9133856150062DBCD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B36E5EB133856150062DBCD /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		2B36E5EF133856150062DBCD /* events-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "events-Info.plist"; sourceTree = "<group>"; };
+		2B36E5F1133856150062DBCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B36E5F3133856150062DBCD /* events-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "events-Prefix.pch"; sourceTree = "<group>"; };
+		2B36E5F4133856150062DBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B36E5F8133856150062DBCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B36E5FB133856150062DBCD /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		2B36E5FD133856150062DBCD /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		2B36E6041338566E0062DBCD /* event_view.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = event_view.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B36E5E2133856150062DBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B36E5EA133856150062DBCD /* Cocoa.framework in Frameworks */,
+				2B36E5EC133856150062DBCD /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B36E5DA133856150062DBCD = {
+			isa = PBXGroup;
+			children = (
+				2B36E5ED133856150062DBCD /* events */,
+				2B36E5E8133856150062DBCD /* Frameworks */,
+				2B36E5E6133856150062DBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B36E5E6133856150062DBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5E5133856150062DBCD /* events.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B36E5E8133856150062DBCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5E9133856150062DBCD /* Cocoa.framework */,
+				2B36E5EB133856150062DBCD /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B36E5ED133856150062DBCD /* events */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5FD133856150062DBCD /* AppDelegate.rb */,
+				2B36E5F6133856150062DBCD /* Resources */,
+				2B36E5FA133856150062DBCD /* Other Sources */,
+				2B36E5EE133856150062DBCD /* Supporting Files */,
+				2B36E6041338566E0062DBCD /* event_view.rb */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+		2B36E5EE133856150062DBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5EF133856150062DBCD /* events-Info.plist */,
+				2B36E5F0133856150062DBCD /* InfoPlist.strings */,
+				2B36E5F3133856150062DBCD /* events-Prefix.pch */,
+				2B36E5F4133856150062DBCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B36E5F6133856150062DBCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5F7133856150062DBCD /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B36E5FA133856150062DBCD /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B36E5FB133856150062DBCD /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B36E5E4133856150062DBCD /* events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B36E601133856150062DBCD /* Build configuration list for PBXNativeTarget "events" */;
+			buildPhases = (
+				2B36E5E1133856150062DBCD /* Sources */,
+				2B36E5E2133856150062DBCD /* Frameworks */,
+				2B36E5E3133856150062DBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = events;
+			productName = events;
+			productReference = 2B36E5E5133856150062DBCD /* events.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B36E5DC133856150062DBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "m|a agile Consulting";
+			};
+			buildConfigurationList = 2B36E5DF133856150062DBCD /* Build configuration list for PBXProject "events" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B36E5DA133856150062DBCD;
+			productRefGroup = 2B36E5E6133856150062DBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B36E5E4133856150062DBCD /* events */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B36E5E3133856150062DBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B36E5F2133856150062DBCD /* InfoPlist.strings in Resources */,
+				2B36E5F9133856150062DBCD /* MainMenu.xib in Resources */,
+				2B36E5FC133856150062DBCD /* rb_main.rb in Resources */,
+				2B36E5FE133856150062DBCD /* AppDelegate.rb in Resources */,
+				2B36E6051338566E0062DBCD /* event_view.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B36E5E1133856150062DBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B36E5F5133856150062DBCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B36E5F0133856150062DBCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B36E5F1133856150062DBCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B36E5F7133856150062DBCD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B36E5F8133856150062DBCD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B36E5FF133856150062DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B36E600133856150062DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B36E602133856150062DBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "events/events-Prefix.pch";
+				INFOPLIST_FILE = "events/events-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B36E603133856150062DBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "events/events-Prefix.pch";
+				INFOPLIST_FILE = "events/events-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B36E5DF133856150062DBCD /* Build configuration list for PBXProject "events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B36E5FF133856150062DBCD /* Debug */,
+				2B36E600133856150062DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B36E601133856150062DBCD /* Build configuration list for PBXNativeTarget "events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B36E602133856150062DBCD /* Debug */,
+				2B36E603133856150062DBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B36E5DC133856150062DBCD /* Project object */;
+}
