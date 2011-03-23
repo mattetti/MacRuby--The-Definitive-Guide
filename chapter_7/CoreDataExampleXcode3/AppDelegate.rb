@@ -143,6 +143,7 @@ class AppDelegate
       return if (result == NSCancelButton) 
       path = panel.filename
       dest_path = applicationSupportFolder
+
       # use a GUID to avoid conflicts
       guid = NSProcessInfo.processInfo.globallyUniqueString
       # set the destination path in the support folder

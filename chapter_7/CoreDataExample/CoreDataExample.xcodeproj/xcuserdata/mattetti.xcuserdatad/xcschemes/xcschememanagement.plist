@@ -12,8 +12,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CoreDataExample.app</key>
-		<true/>
+		<key>2B36E61013386A9F0062DBCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
