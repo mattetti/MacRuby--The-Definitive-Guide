@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B75BF91136A7A7D005AA6C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B75BF90136A7A7D005AA6C9 /* Cocoa.framework */; };
+		2B75BF93136A7A7D005AA6C9 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B75BF92136A7A7D005AA6C9 /* MacRuby.framework */; };
+		2B75BF9A136A7A7D005AA6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BF98136A7A7D005AA6C9 /* InfoPlist.strings */; };
+		2B75BF9D136A7A7D005AA6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B75BF9C136A7A7D005AA6C9 /* main.m */; };
+		2B75BFA1136A7A7D005AA6C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BF9F136A7A7D005AA6C9 /* MainMenu.xib */; };
+		2B75BFA4136A7A7D005AA6C9 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFA3136A7A7D005AA6C9 /* rb_main.rb */; };
+		2B75BFA6136A7A7D005AA6C9 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFA5136A7A7D005AA6C9 /* AppDelegate.rb */; };
+		2B75BFBA136A8021005AA6C9 /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFB9136A8021005AA6C9 /* twitter_logo.png */; };
+		2B75BFC0136A8F2C005AA6C9 /* ab_address_book.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBC136A8F2C005AA6C9 /* ab_address_book.rb */; };
+		2B75BFC1136A8F2C005AA6C9 /* ab_extra.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */; };
+		2B75BFC2136A8F2C005AA6C9 /* ab_group.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */; };
+		2B75BFC3136A8F2C005AA6C9 /* ab_record.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B75BF8C136A7A7D005AA6C9 /* TwitterContactImporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterContactImporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B75BF90136A7A7D005AA6C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B75BF92136A7A7D005AA6C9 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		2B75BF97136A7A7D005AA6C9 /* TwitterContactImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterContactImporter-Info.plist"; sourceTree = "<group>"; };
+		2B75BF99136A7A7D005AA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B75BF9B136A7A7D005AA6C9 /* TwitterContactImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitterContactImporter-Prefix.pch"; sourceTree = "<group>"; };
+		2B75BF9C136A7A7D005AA6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B75BFA0136A7A7D005AA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B75BFA3136A7A7D005AA6C9 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		2B75BFA5136A7A7D005AA6C9 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		2B75BFB9136A8021005AA6C9 /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo.png; sourceTree = "<group>"; };
+		2B75BFBC136A8F2C005AA6C9 /* ab_address_book.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_address_book.rb; sourceTree = "<group>"; };
+		2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_extra.rb; sourceTree = "<group>"; };
+		2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_group.rb; sourceTree = "<group>"; };
+		2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_record.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B75BF89136A7A7D005AA6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B75BF91136A7A7D005AA6C9 /* Cocoa.framework in Frameworks */,
+				2B75BF93136A7A7D005AA6C9 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B75BF81136A7A7C005AA6C9 = {
+			isa = PBXGroup;
+			children = (
+				2B75BF95136A7A7D005AA6C9 /* TwitterContactImporter */,
+				2B75BF8F136A7A7D005AA6C9 /* Frameworks */,
+				2B75BF8D136A7A7D005AA6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B75BF8D136A7A7D005AA6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BF8C136A7A7D005AA6C9 /* TwitterContactImporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B75BF8F136A7A7D005AA6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BF90136A7A7D005AA6C9 /* Cocoa.framework */,
+				2B75BF92136A7A7D005AA6C9 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B75BF95136A7A7D005AA6C9 /* TwitterContactImporter */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BFBB136A8D7F005AA6C9 /* Wrappers */,
+				2B75BFA5136A7A7D005AA6C9 /* AppDelegate.rb */,
+				2B75BF9E136A7A7D005AA6C9 /* Resources */,
+				2B75BFA2136A7A7D005AA6C9 /* Other Sources */,
+				2B75BF96136A7A7D005AA6C9 /* Supporting Files */,
+			);
+			path = TwitterContactImporter;
+			sourceTree = "<group>";
+		};
+		2B75BF96136A7A7D005AA6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BF97136A7A7D005AA6C9 /* TwitterContactImporter-Info.plist */,
+				2B75BF98136A7A7D005AA6C9 /* InfoPlist.strings */,
+				2B75BF9B136A7A7D005AA6C9 /* TwitterContactImporter-Prefix.pch */,
+				2B75BF9C136A7A7D005AA6C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B75BF9E136A7A7D005AA6C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BFB9136A8021005AA6C9 /* twitter_logo.png */,
+				2B75BF9F136A7A7D005AA6C9 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B75BFA2136A7A7D005AA6C9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BFA3136A7A7D005AA6C9 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2B75BFBB136A8D7F005AA6C9 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2B75BFBC136A8F2C005AA6C9 /* ab_address_book.rb */,
+				2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */,
+				2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */,
+				2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */,
+			);
+			name = Wrappers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2B75BF94136A7A7D005AA6C9 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 2B75BFAC136A7A7D005AA6C9 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		2B75BF8B136A7A7D005AA6C9 /* TwitterContactImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B75BFA9136A7A7D005AA6C9 /* Build configuration list for PBXNativeTarget "TwitterContactImporter" */;
+			buildPhases = (
+				2B75BF88136A7A7D005AA6C9 /* Sources */,
+				2B75BF89136A7A7D005AA6C9 /* Frameworks */,
+				2B75BF8A136A7A7D005AA6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterContactImporter;
+			productName = TwitterContactImporter;
+			productReference = 2B75BF8C136A7A7D005AA6C9 /* TwitterContactImporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B75BF83136A7A7C005AA6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "m|a agile Consulting";
+			};
+			buildConfigurationList = 2B75BF86136A7A7C005AA6C9 /* Build configuration list for PBXProject "TwitterContactImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B75BF81136A7A7C005AA6C9;
+			productRefGroup = 2B75BF8D136A7A7D005AA6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B75BF8B136A7A7D005AA6C9 /* TwitterContactImporter */,
+				2B75BF94136A7A7D005AA6C9 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B75BF8A136A7A7D005AA6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B75BF9A136A7A7D005AA6C9 /* InfoPlist.strings in Resources */,
+				2B75BFA1136A7A7D005AA6C9 /* MainMenu.xib in Resources */,
+				2B75BFA4136A7A7D005AA6C9 /* rb_main.rb in Resources */,
+				2B75BFA6136A7A7D005AA6C9 /* AppDelegate.rb in Resources */,
+				2B75BFBA136A8021005AA6C9 /* twitter_logo.png in Resources */,
+				2B75BFC0136A8F2C005AA6C9 /* ab_address_book.rb in Resources */,
+				2B75BFC1136A8F2C005AA6C9 /* ab_extra.rb in Resources */,
+				2B75BFC2136A8F2C005AA6C9 /* ab_group.rb in Resources */,
+				2B75BFC3136A8F2C005AA6C9 /* ab_record.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B75BF88136A7A7D005AA6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B75BF9D136A7A7D005AA6C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B75BF98136A7A7D005AA6C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B75BF99136A7A7D005AA6C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B75BF9F136A7A7D005AA6C9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B75BFA0136A7A7D005AA6C9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B75BFA7136A7A7D005AA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B75BFA8136A7A7D005AA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B75BFAA136A7A7D005AA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterContactImporter/TwitterContactImporter-Prefix.pch";
+				INFOPLIST_FILE = "TwitterContactImporter/TwitterContactImporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B75BFAB136A7A7D005AA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitterContactImporter/TwitterContactImporter-Prefix.pch";
+				INFOPLIST_FILE = "TwitterContactImporter/TwitterContactImporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B75BFAD136A7A7D005AA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B75BFAE136A7A7D005AA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B75BF86136A7A7C005AA6C9 /* Build configuration list for PBXProject "TwitterContactImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B75BFA7136A7A7D005AA6C9 /* Debug */,
+				2B75BFA8136A7A7D005AA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B75BFA9136A7A7D005AA6C9 /* Build configuration list for PBXNativeTarget "TwitterContactImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B75BFAA136A7A7D005AA6C9 /* Debug */,
+				2B75BFAB136A7A7D005AA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B75BFAC136A7A7D005AA6C9 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B75BFAD136A7A7D005AA6C9 /* Debug */,
+				2B75BFAE136A7A7D005AA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B75BF83136A7A7C005AA6C9 /* Project object */;
+}
