@@ -19,6 +19,7 @@
 		2B75BFC1136A8F2C005AA6C9 /* ab_extra.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */; };
 		2B75BFC2136A8F2C005AA6C9 /* ab_group.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */; };
 		2B75BFC3136A8F2C005AA6C9 /* ab_record.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */; };
+		2BF9925013725C9A0085FA45 /* core_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2BF9924F13725C9A0085FA45 /* core_ext.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_extra.rb; sourceTree = "<group>"; };
 		2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_group.rb; sourceTree = "<group>"; };
 		2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ab_record.rb; sourceTree = "<group>"; };
+		2BF9924F13725C9A0085FA45 /* core_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_ext.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				2B75BFBD136A8F2C005AA6C9 /* ab_extra.rb */,
 				2B75BFBE136A8F2C005AA6C9 /* ab_group.rb */,
 				2B75BFBF136A8F2C005AA6C9 /* ab_record.rb */,
+				2BF9924F13725C9A0085FA45 /* core_ext.rb */,
 			);
 			name = Wrappers;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				2B75BFC1136A8F2C005AA6C9 /* ab_extra.rb in Resources */,
 				2B75BFC2136A8F2C005AA6C9 /* ab_group.rb in Resources */,
 				2B75BFC3136A8F2C005AA6C9 /* ab_record.rb in Resources */,
+				2BF9925013725C9A0085FA45 /* core_ext.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +342,7 @@
 				2B75BFAB136A7A7D005AA6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B75BFAC136A7A7D005AA6C9 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -346,6 +351,7 @@
 				2B75BFAE136A7A7D005AA6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
