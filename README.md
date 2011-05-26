@@ -46,3 +46,7 @@ Examples are organized by chapters so you can follow along.
 ## Chapter 10
 
 * [Around me App](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_10/AroundMe)
+
+## Chapter 11
+
+* [Embedding MacRuby](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_11/EmbeddedMacRuby/)

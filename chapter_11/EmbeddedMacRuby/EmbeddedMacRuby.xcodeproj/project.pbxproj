@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0EE495138E1FFE0002014F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EE494138E1FFE0002014F /* Cocoa.framework */; };
+		2B0EE49F138E1FFE0002014F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EE49D138E1FFE0002014F /* InfoPlist.strings */; };
+		2B0EE4A2138E1FFE0002014F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EE4A1138E1FFE0002014F /* main.m */; };
+		2B0EE4A5138E1FFE0002014F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EE4A3138E1FFE0002014F /* Credits.rtf */; };
+		2B0EE4A8138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0EE4A7138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.m */; };
+		2B0EE4AB138E1FFE0002014F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EE4A9138E1FFE0002014F /* MainMenu.xib */; };
+		2B0EE4B2138E23C40002014F /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0EE4B1138E23C40002014F /* MacRuby.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0EE490138E1FFE0002014F /* EmbeddedMacRuby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbeddedMacRuby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0EE494138E1FFE0002014F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B0EE497138E1FFE0002014F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2B0EE498138E1FFE0002014F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B0EE499138E1FFE0002014F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B0EE49C138E1FFE0002014F /* EmbeddedMacRuby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbeddedMacRuby-Info.plist"; sourceTree = "<group>"; };
+		2B0EE49E138E1FFE0002014F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B0EE4A0138E1FFE0002014F /* EmbeddedMacRuby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbeddedMacRuby-Prefix.pch"; sourceTree = "<group>"; };
+		2B0EE4A1138E1FFE0002014F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0EE4A4138E1FFE0002014F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2B0EE4A6138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbeddedMacRubyAppDelegate.h; sourceTree = "<group>"; };
+		2B0EE4A7138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbeddedMacRubyAppDelegate.m; sourceTree = "<group>"; };
+		2B0EE4AA138E1FFE0002014F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B0EE4B1138E23C40002014F /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B0EE48D138E1FFE0002014F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EE4B2138E23C40002014F /* MacRuby.framework in Frameworks */,
+				2B0EE495138E1FFE0002014F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0EE485138E1FFE0002014F = {
+			isa = PBXGroup;
+			children = (
+				2B0EE49A138E1FFE0002014F /* EmbeddedMacRuby */,
+				2B0EE493138E1FFE0002014F /* Frameworks */,
+				2B0EE491138E1FFE0002014F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B0EE491138E1FFE0002014F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE490138E1FFE0002014F /* EmbeddedMacRuby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B0EE493138E1FFE0002014F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE4B1138E23C40002014F /* MacRuby.framework */,
+				2B0EE494138E1FFE0002014F /* Cocoa.framework */,
+				2B0EE496138E1FFE0002014F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B0EE496138E1FFE0002014F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE497138E1FFE0002014F /* AppKit.framework */,
+				2B0EE498138E1FFE0002014F /* CoreData.framework */,
+				2B0EE499138E1FFE0002014F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B0EE49A138E1FFE0002014F /* EmbeddedMacRuby */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE4A6138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.h */,
+				2B0EE4A7138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.m */,
+				2B0EE4A9138E1FFE0002014F /* MainMenu.xib */,
+				2B0EE49B138E1FFE0002014F /* Supporting Files */,
+			);
+			path = EmbeddedMacRuby;
+			sourceTree = "<group>";
+		};
+		2B0EE49B138E1FFE0002014F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0EE49C138E1FFE0002014F /* EmbeddedMacRuby-Info.plist */,
+				2B0EE49D138E1FFE0002014F /* InfoPlist.strings */,
+				2B0EE4A0138E1FFE0002014F /* EmbeddedMacRuby-Prefix.pch */,
+				2B0EE4A1138E1FFE0002014F /* main.m */,
+				2B0EE4A3138E1FFE0002014F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B0EE48F138E1FFE0002014F /* EmbeddedMacRuby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0EE4AE138E1FFE0002014F /* Build configuration list for PBXNativeTarget "EmbeddedMacRuby" */;
+			buildPhases = (
+				2B0EE48C138E1FFE0002014F /* Sources */,
+				2B0EE48D138E1FFE0002014F /* Frameworks */,
+				2B0EE48E138E1FFE0002014F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmbeddedMacRuby;
+			productName = EmbeddedMacRuby;
+			productReference = 2B0EE490138E1FFE0002014F /* EmbeddedMacRuby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B0EE487138E1FFE0002014F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "m|a agile Consulting";
+			};
+			buildConfigurationList = 2B0EE48A138E1FFE0002014F /* Build configuration list for PBXProject "EmbeddedMacRuby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B0EE485138E1FFE0002014F;
+			productRefGroup = 2B0EE491138E1FFE0002014F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0EE48F138E1FFE0002014F /* EmbeddedMacRuby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B0EE48E138E1FFE0002014F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EE49F138E1FFE0002014F /* InfoPlist.strings in Resources */,
+				2B0EE4A5138E1FFE0002014F /* Credits.rtf in Resources */,
+				2B0EE4AB138E1FFE0002014F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0EE48C138E1FFE0002014F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0EE4A2138E1FFE0002014F /* main.m in Sources */,
+				2B0EE4A8138E1FFE0002014F /* EmbeddedMacRubyAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B0EE49D138E1FFE0002014F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0EE49E138E1FFE0002014F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B0EE4A3138E1FFE0002014F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0EE4A4138E1FFE0002014F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2B0EE4A9138E1FFE0002014F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B0EE4AA138E1FFE0002014F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0EE4AC138E1FFE0002014F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B0EE4AD138E1FFE0002014F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B0EE4AF138E1FFE0002014F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedMacRuby/EmbeddedMacRuby-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedMacRuby/EmbeddedMacRuby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B0EE4B0138E1FFE0002014F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbeddedMacRuby/EmbeddedMacRuby-Prefix.pch";
+				INFOPLIST_FILE = "EmbeddedMacRuby/EmbeddedMacRuby-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0EE48A138E1FFE0002014F /* Build configuration list for PBXProject "EmbeddedMacRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0EE4AC138E1FFE0002014F /* Debug */,
+				2B0EE4AD138E1FFE0002014F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0EE4AE138E1FFE0002014F /* Build configuration list for PBXNativeTarget "EmbeddedMacRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0EE4AF138E1FFE0002014F /* Debug */,
+				2B0EE4B0138E1FFE0002014F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B0EE487138E1FFE0002014F /* Project object */;
+}
