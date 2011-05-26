@@ -21,10 +21,9 @@ Examples are organized by chapters so you can follow along.
 
 ## Chapter 5
 
-* Drawing
-* Bindings
-* Events
-* Images
+* Drawing: [rectangle v1](http://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_5/draw_rect_v1.rb), [rectangle v2](https://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_5/draw_rect_v2.rb), [failed rectangle drawing](https://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_5/failed_draw_rect.rb), [image](https://github.com/mattetti/MacRuby--The-Definitive-Guide/blob/master/chapter_5/image.rb) 
+* [Bindings Example](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_5/bindingsExample)
+* [Events Example](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_5/events/events)
 
 ## Chapter 7
 
@@ -41,9 +40,9 @@ Examples are organized by chapters so you can follow along.
 
 ## Chapter 9
 
-* Twitter Contact Importer App
+* [Twitter Contact Importer App](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_9/TwitterContactImporter)
 
 
 ## Chapter 10
 
-* Around me App
+* [Around me App](http://github.com/mattetti/MacRuby--The-Definitive-Guide/tree/master/chapter_10/AroundMe)
