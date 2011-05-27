@@ -27,12 +27,14 @@
   [resultTextView setFont:niceFont];
   
   id appHelper = [[MacRuby sharedRuntime] evaluateString:@"module App;\
-                    def self.setWindow(val); @window=val; end;\
+                    def self.window=(val); @window=val; end;\
                     def self.window; @window; end; end; App"];
-  [appHelper performRubySelector:@selector(setWindow:) 
+  [appHelper performRubySelector:sel_registerName("window=:") 
                                 withArguments:window, nil];  
   [rubySourceTextView setString:@"App.window.title = 'W00t'"];
 }
+
+
 
 - (IBAction)evaluate:(id)sender
 {
