@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5376471394582900082509 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5376461394582900082509 /* Cocoa.framework */; };
+		2B5376561394621C00082509 /* Spelling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5376541394621C00082509 /* Spelling.h */; };
+		2B5376571394621C00082509 /* Spelling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5376551394621C00082509 /* Spelling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5376431394582900082509 /* Spelling.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Spelling.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5376461394582900082509 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B5376491394582900082509 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2B53764A1394582900082509 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B53764B1394582900082509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B53764E1394582900082509 /* Spelling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spelling-Prefix.pch"; sourceTree = "<group>"; };
+		2B5376541394621C00082509 /* Spelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spelling.h; sourceTree = "<group>"; };
+		2B5376551394621C00082509 /* Spelling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spelling.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5376401394582900082509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5376471394582900082509 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5376381394582900082509 = {
+			isa = PBXGroup;
+			children = (
+				2B53764C1394582900082509 /* Spelling */,
+				2B5376451394582900082509 /* Frameworks */,
+				2B5376441394582900082509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5376441394582900082509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5376431394582900082509 /* Spelling.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5376451394582900082509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5376461394582900082509 /* Cocoa.framework */,
+				2B5376481394582900082509 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B5376481394582900082509 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5376491394582900082509 /* AppKit.framework */,
+				2B53764A1394582900082509 /* CoreData.framework */,
+				2B53764B1394582900082509 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B53764C1394582900082509 /* Spelling */ = {
+			isa = PBXGroup;
+			children = (
+				2B53764D1394582900082509 /* Supporting Files */,
+			);
+			path = Spelling;
+			sourceTree = "<group>";
+		};
+		2B53764D1394582900082509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B5376541394621C00082509 /* Spelling.h */,
+				2B5376551394621C00082509 /* Spelling.m */,
+				2B53764E1394582900082509 /* Spelling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B5376411394582900082509 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5376561394621C00082509 /* Spelling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B5376421394582900082509 /* Spelling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5376511394582900082509 /* Build configuration list for PBXNativeTarget "Spelling" */;
+			buildPhases = (
+				2B53763F1394582900082509 /* Sources */,
+				2B5376401394582900082509 /* Frameworks */,
+				2B5376411394582900082509 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spelling;
+			productName = Spelling;
+			productReference = 2B5376431394582900082509 /* Spelling.bundle */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B53763A1394582900082509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "m|a agile Consulting";
+			};
+			buildConfigurationList = 2B53763D1394582900082509 /* Build configuration list for PBXProject "Spelling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B5376381394582900082509;
+			productRefGroup = 2B5376441394582900082509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5376421394582900082509 /* Spelling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B53763F1394582900082509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5376571394621C00082509 /* Spelling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B53764F1394582900082509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B5376501394582900082509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B5376521394582900082509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = bundle;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spelling/Spelling-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = "-fobjc-gc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B5376531394582900082509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = bundle;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spelling/Spelling-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = "-fobjc-gc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B53763D1394582900082509 /* Build configuration list for PBXProject "Spelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B53764F1394582900082509 /* Debug */,
+				2B5376501394582900082509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5376511394582900082509 /* Build configuration list for PBXNativeTarget "Spelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5376521394582900082509 /* Debug */,
+				2B5376531394582900082509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B53763A1394582900082509 /* Project object */;
+}
